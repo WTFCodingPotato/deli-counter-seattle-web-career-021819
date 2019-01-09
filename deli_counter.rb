@@ -14,7 +14,7 @@ def line(line_list)
   end
 end
 def take_a_number(line_list, name)
-  line_position = line_list.count
+  line_position = line_list.count + 1
   puts "Welcome, #{name}. You are number #{line_position} in line."
   line_list << name
 end
