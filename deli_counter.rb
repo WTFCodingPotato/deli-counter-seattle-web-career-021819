@@ -19,4 +19,9 @@ def take_a_number(line_list, name)
   line_list << name
 end
 def now_serving(line_list)
+  if line_list.count == 0
+    puts "There is nobody waiting to be served!"
+  else
+    puts "Currently serving #{line_list.shift}."
+  end
 end
