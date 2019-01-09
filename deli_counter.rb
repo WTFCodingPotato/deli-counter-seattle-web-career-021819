@@ -18,3 +18,5 @@ def take_a_number(line_list, name)
   puts "Welcome, #{name}. You are number #{line_position} in line."
   line_list << name
 end
+def now_serving(line_list)
+end
