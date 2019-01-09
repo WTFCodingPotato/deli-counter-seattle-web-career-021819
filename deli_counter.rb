@@ -5,7 +5,7 @@ def line(line_list)
   end
   else
   line_position = 1
-  new_string = The line is currently:
+  new_string = "The line is currently: "
   line_list.each do |person|
     new_string << "#{line_position}. #{person} "
     line_position += 1
