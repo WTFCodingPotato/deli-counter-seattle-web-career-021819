@@ -3,12 +3,12 @@ def line(line_list)
   if (line_list.count == 0)
     puts "The line is currently empty."
   end
-  elsif
+  else
   line_position = 1
-  new_list = ["The line is currently: "]
+  new_string = The line is currently:
   line_list.each do |person|
-    new_list << "#{line_position}. #{person} "
+    new_string << "#{line_position}. #{person} "
     line_position += 1
   end
-  puts new_list
+  puts new_lstring
 end
