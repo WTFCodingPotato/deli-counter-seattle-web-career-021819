@@ -10,5 +10,5 @@ def line(line_list)
     new_string << "#{line_position}. #{person} "
     line_position += 1
   end
-  puts new_lstring
+  puts new_string
 end
