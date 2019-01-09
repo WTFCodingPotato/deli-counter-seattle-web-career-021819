@@ -13,3 +13,8 @@ def line(line_list)
   puts new_string.rstrip
   end
 end
+def take_a_number(line_list, name)
+  line_position = line_list.count
+  puts "Welcome, #{name}. You are number #{line_position} in line."
+  line_list << name
+end
