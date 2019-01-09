@@ -2,7 +2,6 @@
 def line(line_list)
   if (line_list.count == 0)
     puts "The line is currently empty."
-  end
   else
   line_position = 1
   new_string = "The line is currently: "
